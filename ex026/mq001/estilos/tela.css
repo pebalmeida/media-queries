@@ -1,3 +1,13 @@
 @charset "UTF-8";
 
 /*Estilo para telas */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: monospace;
+    font-size: 3em;
+}
