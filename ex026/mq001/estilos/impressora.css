@@ -20,3 +20,7 @@ menu{
 article::after{
     content: 'Esse artigo foi impresso atraves do autor Pericles Belo de Almeida';
 }
+
+article{
+    width: 150%;
+}
