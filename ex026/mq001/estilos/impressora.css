@@ -16,3 +16,7 @@ html{
 menu{
     display: none;
 }
+
+article::after{
+    content: 'Esse artigo foi impresso atraves do autor Pericles Belo de Almeida';
+}
