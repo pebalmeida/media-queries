@@ -11,6 +11,10 @@ Celular : 600px */
        
     }
 
+    main::after{
+        content: 'Essa impressao foi feita pelo autor Pericles Belo de Almeida';
+    }
+
     *{
         font-family: monospace;
     }
