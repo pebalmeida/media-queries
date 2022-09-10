@@ -2,3 +2,62 @@
 
 
 /* Todas as demais medias */
+/* Typical Device Breakpoints
+Celular : 600px */
+
+@media print{
+
+}
+
+
+
+@media  screen and(min-width:768px ) and (max-width:992px) {
+    body{
+        background-image: url(../imagem/tela_hello.jpg);
+    }
+    img#hello{
+        display: block;
+    }
+    
+    img#controle{
+        display: none;
+    }
+    
+    img#monitor{
+        display: none;
+    }
+    
+    img#moeda{
+        display: none;
+    }
+    
+    
+}
+
+
+@media screen and(min-width:992px) and (max-width:1200px) {
+    body{
+        background-image: url(../imagem/monitor_teclado.jpg);
+    }
+    img#hello{
+        display: block;
+    }
+    
+    img#controle{
+        display: none;
+    }
+    
+    img#monitor{
+        display: block;
+    }
+    
+    img#moeda{
+        display: none;
+    }
+    
+}
+
+
+@media screen and(min-width:1200px) {
+    
+}
