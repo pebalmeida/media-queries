@@ -3,4 +3,63 @@
 
 /* Versão Mobile First */
 
+*{
+    font-family: monospace;
+    font-size: 2.4em;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+
+ html{
+
+    height: 150vh;
+}
+
+body{
+    background: darkturquoise url(../imagem/iphone.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center center;
+}
+
+main{
+    background-color: rgba(255, 0, 0, 0.445);
+    width: 95vw;
+    margin-top: 30px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5em;
+    color: orange;
+    text-shadow: 3px 15px 23px rgba(0, 206, 209, 0.555);
+}
+
+img{
+    display: block;
+    margin: auto;
+}
+
+img#phone{
+    display: block;
+}
+
+img#hello{
+    display: none;
+}
+
+img#controle{
+    display: none;
+}
+
+img#monitor{
+    display: none;
+}
+
+img#moeda{
+    display: none;
+}
