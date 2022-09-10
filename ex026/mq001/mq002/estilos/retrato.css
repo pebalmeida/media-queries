@@ -4,4 +4,5 @@
 
 body{
     background-image: url(../imagem/tela_hello.jpg);
+    background-position: center bottom;
 }
