@@ -6,6 +6,24 @@
 Celular : 600px */
 
 @media print{
+    body {
+        background-image: url(../imagem/painel_phone.jpg);
+       
+    }
+
+    *{
+        font-family: monospace;
+    }
+    main{
+        border: 3px dotted darkturquoise;
+    }
+
+    main h1{
+        color: red;
+        
+        text-shadow: none;
+
+    }
 
 }
 
@@ -59,5 +77,24 @@ Celular : 600px */
 
 
 @media screen and(min-width:1200px) {
+
+    body{
+        background-image: url(../imagem/controle_videogame.jpg);
+    }
+    img#hello{
+        display: block;
+    }
+    
+    img#controle{
+        display: block;
+    }
+    
+    img#monitor{
+        display: block;
+    }
+    
+    img#moeda{
+        display: none;
+    }
     
 }
