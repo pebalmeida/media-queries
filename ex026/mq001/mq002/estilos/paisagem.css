@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* Aparelo Deitado (landscape)*/
+
+body{
+
+    background-image: url(../imagem/phone_calc.jpg);
+}
