@@ -19,7 +19,7 @@ header > h1{
     padding: 20px;
     text-align: center;
 }
-span#burger{
+#burger{
     background-color: rgb(8, 27, 8);
     display: block;
     color: red;
@@ -28,7 +28,7 @@ span#burger{
     cursor: pointer;
 }
 
-span#burger:hover{
+#burger:hover{
     background-color: darkorange;
     color: lawngreen;
 }
