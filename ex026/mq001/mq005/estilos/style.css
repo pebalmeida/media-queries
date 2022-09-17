@@ -19,6 +19,18 @@ header > h1{
     padding: 20px;
     text-align: center;
 }
+span#burger{
+    background-color: rgb(8, 27, 8);
+    display: block;
+    color: red;
+    text-align: center;
+    padding: 20px;
+}
+
+span#burger:hover{
+    background-color: darkorange;
+    color: lawngreen;
+}
 
 menu{
     display: block;
@@ -61,3 +73,4 @@ article > p{
     margin-bottom: 20px;
     text-indent: 30px;
 }
+
