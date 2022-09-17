@@ -1,5 +1,44 @@
 @charset "UTF-8";
 
+*{
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+}
+
+
 body , html{
     background-color: darkorange;
+}
+
+header{
+    background-color: darkturquoise;
+}
+
+header > h1{
+    padding: 20px;
+    text-align: center;
+}
+
+menu{
+    display: block;
+}
+
+menu > ul{
+    list-style-type: none;
+}
+
+menu a{
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(128, 243, 245);
+    color: red;
+    border-top: 3px dotted darkslategrey;
+
+}
+
+menu a:hover{
+    background-color: rgb(209, 145, 66);
 }
