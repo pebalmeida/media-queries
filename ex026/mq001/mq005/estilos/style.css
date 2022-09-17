@@ -42,3 +42,11 @@ menu a{
 menu a:hover{
     background-color: rgb(209, 145, 66);
 }
+
+main{
+    width: 95vw;
+    background-color: red;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
